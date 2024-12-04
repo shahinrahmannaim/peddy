@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+}
+
+.family {
+    color: #4b4132da;
+
+}
+
+.button {
+
+    background-color: #0E7A81;
+}
+.category-btn {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.category-btn.active {
+    
+    
+    border: 2px gray solid;
+    width: 250px;
+    border-radius: 50px;
+    padding: 20px ;
+    text-align: center;
+}
+
+.pet-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.pet-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+/* Style for disabled adopt buttons */
+.btn-disabled {
+    background-color: #a4b0be;
+    /* Example: Gray background */
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.card-actions {
+    padding: 1rem 0;
+}
+.footer{
+    background-color: #131313;
+}
+
